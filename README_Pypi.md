@@ -1,10 +1,14 @@
-# Package dbbackup to manage server databases backups:
-- Mysql: this release
-- PostgreSQL: next release
-- Other: futures releases
+# Package dbbackup-tools to create base folder for dbbackup:
 
-Installation:
-- python -m pip install dbbackup
+Installation: (this package is already include in the dbbackup dependencies)
+If you want to install it without dbbackup:
+- pip install dbbackup-tools
+
+Run it:
+- python
+- import dbbackup_tools.util
+- enter your folder name to hold dbbackup configuration
+- cd to your new dbbackup folder
 
 Configuration:
 - ajust .env to match your local configration

@@ -1,11 +1,23 @@
 [tool.poetry]
 name = "dbbackup-tools"
-version = "0.1.0"
-description = ""
-authors = ["E.DISCORS <e.discors.perso@gmail.com>"]
+version = "0.1.2"
+description = "Package dbbackup to manage server database backups"
+authors = ["Emmanuel DISCORS <e.discors.perso@gmail.com>"]
+maintainers = ["Emmanuel DISCORS <e.discors.perso@gmail.com>"]
+license = "MIT"
+readme = "README_Pypi.md"
+#homepage = "https://discors.eu/"
+repository = "https://github.com/EmmanuelDiscors?tab=repositories"
+keywords = ["backup", "restore", "databases", "Mysql", "PostgreSQL"]
+classifiers = ["Topic :: System :: Archiving :: Backup"]
+include = []
+exclude = []
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/EmmanuelDiscors/backup-systems/issues"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
