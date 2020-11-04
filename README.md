@@ -1,13 +1,13 @@
-# Package dbbackup-tools to create base folder for dbbackup:
+# dbbackup-tools 
+Tool to create a new dbbackup folder
 
-Installation: (this package is already include in the dbbackup dependencies)
-If you want to install it without dbbackup:
-- pip install dbbackup-tools
+pip install dbbackup
+dbbackup-tools is instaled with dbbackup dependencies
 
 Run it:
 - python
 - import dbbackup_tools.util
-- enter your folder name to hold dbbackup configuration
+- Enter your folder name to hold dbbackup configuration
 - cd to your new dbbackup folder
 
 Configuration:
