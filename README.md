@@ -17,7 +17,7 @@ Configuration:
 loggin_config_example.yaml to loggin_config.yaml
 
 - To backup Mysql databases, rename and adjust:
-mysql-backup-script.config_example to mysql-backup-script.config
+mysql-backup-script_example.config to mysql-backup-script.config
 
 Work with it:
 - python
