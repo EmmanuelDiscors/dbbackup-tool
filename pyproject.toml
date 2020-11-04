@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dbbackup-tools"
-version = "0.1.3"
+version = "0.1.4"
 description = "Package dbbackup to manage server database backups"
 authors = ["Emmanuel DISCORS <e.discors.perso@gmail.com>"]
 maintainers = ["Emmanuel DISCORS <e.discors.perso@gmail.com>"]
