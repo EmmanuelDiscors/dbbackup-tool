@@ -15,9 +15,11 @@ Configuration:
 - ajust the file .env to match your local configration
 
 - To logging on smtp, rename and adjust:
+
 loggin_config_example.yaml to loggin_config.yaml
 
 - To backup Mysql databases, rename and adjust:
+
 mysql-backup-script_example.config to mysql-backup-script.config
 
 Work with it:
