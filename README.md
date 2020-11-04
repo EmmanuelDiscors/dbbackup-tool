@@ -2,7 +2,8 @@
 Tool to create a new dbbackup folder
 
 pip install dbbackup
-# dbbackup-tools is instaled with dbbackup dependencies
+
+dbbackup-tools is instaled with dbbackup dependencies
 
 Run it:
 - python
